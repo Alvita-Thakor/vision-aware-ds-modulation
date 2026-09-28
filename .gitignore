@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Old/intermediate experiment files
+r1
+r1_corrected
+*.csv
+
+# Keep final experiment CSVs
+!blur_sweep_new2.csv
+!fps_sweep_new2.csv
+!latency_sweep_new2.csv
+!noise_occlusion_sweep_new.csv
+!noise_sweep_new.csv
+!occlusion_sweep_new.csv
+
+# Local research documents
+*.docx
+
+# Old/generated figures in project root
+*.png
+!figures/*.png
